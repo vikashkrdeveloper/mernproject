@@ -11,10 +11,10 @@ app.use(express.urlencoded({extended:false}));
 app.use(cookie());
 app.use(route);
 
-app.use(express.static(path.join(__dirname, "./client/build")));
+app.use(express.static(path.join(__dirname, "../client/build")));
 app.get("*", function (req, res) {
   res.sendFile(
-    path.join(__dirname, "./client/build/index.html")   
+    path.join(__dirname, "../client/build/index.html")   
   );
 });
 app.all('*',(req,res)=>{
