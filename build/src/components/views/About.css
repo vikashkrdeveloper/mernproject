@@ -1,0 +1,11 @@
+.main-about-container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    color: white;
+
+}

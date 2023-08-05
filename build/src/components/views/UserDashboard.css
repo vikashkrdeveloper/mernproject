@@ -1,0 +1,90 @@
+.dashboard-main-container{
+    margin-top: 60px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(233, 250, 255);
+    display: flex;
+    align-items: center;
+}
+.dashbord-side-bar-container{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid rgb(227, 227, 227);
+
+   
+}
+.dashbord-side-bar-top-box-container{
+    width: 100%;
+    height: 60%;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashbord-side-bar-bottom-box-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashbord-side-bar-top-box{
+    width:90%;
+    height: 95%;
+}
+.dashbord-side-bar-bottom-box{
+    width:90%;
+    height: 100%;
+}
+.dashbord-side-bar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(220, 237, 255);
+    color: rgb(20, 97, 231);
+    cursor: default;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.heading-dashbord-side-bar-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+}
+.dashboard-heading{
+    margin-left: 10px;
+    font-weight: 700;
+}
+.dashboard-products{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.icon{
+    margin-left: 10px;
+
+}
+.dropdown-arrow{
+    margin-left: 80px;
+}
+.dropdown-pro{
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+.dropdown-product-con{
+    background-color: white;
+
+}
+.renderother-container{
+    width: 84%;
+    height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}

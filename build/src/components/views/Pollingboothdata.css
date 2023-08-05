@@ -1,0 +1,46 @@
+.add-data-container {
+  width: 100%;
+  height: 100vh;
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.add-data-box-container {
+  width: 47%;
+  height: 90%;
+  background-color: white;
+  border-radius: 20px;
+}
+.add-data-box-heading {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-box-con {
+  padding: 18px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid rgb(164, 164, 164);
+  outline-color: brown;
+}
+.button-container-form{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn-box{
+    width: 200px;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(238, 0, 255);
+    background-color: rgb(238, 0, 255);
+    border-radius: 10px;
+color: white;
+}

@@ -1,0 +1,97 @@
+.addproject-main-container{
+    width: 80%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 20px;
+}
+.heading-project-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+ 
+.product-input-container{
+    width:100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box-create{
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-box-container{
+    width: 95%;
+    height: 95%;
+}
+.input-container-product-box{
+    display: flex;
+}
+.input-container-product-box-cn{
+    width: 50%;
+    height: auto;
+}
+.input-container-product{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.titlename{
+    cursor: default;
+    font-weight: 600;
+}
+.inputfield-box-con{
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    outline-color: chocolate;
+    border: 1px solid rgb(186, 186, 186);
+    font-weight: 500;
+
+}
+#producttitle{
+    width: 97%;
+}
+#label{
+    border: 1px solid rgb(185, 185, 185);
+    width: 96%;
+    margin-top: 5px;
+    padding: 10px;
+    outline-color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.input-container-product-cn-amount{
+width: 50%;
+height: auto;
+display: flex;
+align-items: flex-end;
+}
+
+.submit-button-container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit-item{
+    padding: 10px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 5, 237, 0.896);
+}

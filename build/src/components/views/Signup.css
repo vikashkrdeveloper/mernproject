@@ -1,0 +1,81 @@
+.signup-m-container {
+  width: 80%;
+  height:auto;
+  background: linear-gradient(100deg,red,green,blue);
+  border-radius: 20px;
+  border: 1px solid rgb(208, 208, 208);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-main-container {
+  margin-top: 60px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(200deg,red,green,blue);
+}
+.leftside-container {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-input-form-container{
+ margin: 20px;
+ margin-left: 60px;
+  width:90%;
+  height: auto;
+}
+.rightside-input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 60%;
+  height: 90%;
+  background-color: rgb(203, 229, 247);
+  border-radius: 20px;
+}
+.signup-heading-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-fields {
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  outline-color: rgba(255, 102, 0, 0.626);
+}
+
+
+.loginpage-container{
+  width: 90%;
+  height: 40px;
+  background: linear-gradient(125deg,rgb(122, 30, 30),rgb(107, 107, 41),rgb(44, 121, 44));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: default;
+}
+.name-login{
+  color: white;
+  margin-right: 8px;
+  font-weight: 700;
+}
+.login-page-name{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+  transition: .4s;
+}
+.login-page-name:hover{
+  color: rgb(200, 255, 0);
+}

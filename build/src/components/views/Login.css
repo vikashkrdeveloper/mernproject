@@ -1,0 +1,105 @@
+.login-container {
+    width: 500px;
+    height: 500px;
+    /* background-color: blueviolet; */
+  }
+  .login-main-container{
+  margin-top: 60px;
+
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(200deg,rgb(174, 22, 22),rgb(41, 129, 41),rgb(114, 114, 43));
+
+  }
+  .login-heading {
+    margin: 50px;
+    margin-bottom: 0px;
+    height: 60px;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgb(159, 159, 159);
+    border-bottom: none;
+    background:linear-gradient(200deg,rgb(106, 42, 42),rgb(142, 142, 79),rgb(58, 101, 58) )
+
+  }
+  .login-input {
+    border: 1px solid rgb(159, 159, 159);
+    border-top: none;
+    margin: 50px;
+    margin-top: 0px;
+    width: 75%;
+    height: 70%;
+    border-radius: 0px 0px 10px 10px;
+    background:linear-gradient(200deg,rgb(106, 42, 42),rgb(142, 142, 79),rgb(58, 101, 58) )
+
+  }
+  .pagename{
+    color: rgb(72, 255, 0);
+  }
+  .login-input-form {
+    margin-left: 10px;
+    width: 90%;
+    height: 90%;
+  }
+  .input-field {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+  }
+  #name {
+    text-transform: lowercase;
+  }
+   
+  #submit {
+    padding: 10px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .usernot-login-container{
+    position: relative;
+    background:linear-gradient(200deg,rgb(110, 44, 44),rgb(121, 121, 40),rgb(40, 166, 40));
+    border-radius: 10px;
+    top: 80px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    margin-left: 10px;
+  }
+  .signup-link{
+    margin-left: 8px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 700;
+    transition: .4s;
+  }
+  .signup-link:hover{
+    color: rgb(255, 230, 0);
+  }
+  .top-button-container{
+    margin-top: 0;
+  }
